@@ -9,7 +9,7 @@ if os.name == 'nt':
 
 
 def error(str):
-    print('\n' + '\033[41m' + str + '\033[0m' + '\n')
+    print('\n' + '\033[41m' + str + '\033[0m' + ' \n')
     sys.exit(1)
 
 
